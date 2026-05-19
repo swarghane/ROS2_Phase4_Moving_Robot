@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/phase4_pkg/phase4_pkg.egg-info
+writing ../../build/phase4_pkg/phase4_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/phase4_pkg/phase4_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/phase4_pkg/phase4_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/phase4_pkg/phase4_pkg.egg-info/requires.txt
+writing top-level names to ../../build/phase4_pkg/phase4_pkg.egg-info/top_level.txt
+writing manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/camera_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/display_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/__init__.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/tracker_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/motor_control_node_arduinoo.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/decision_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/tracker_node_v2.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/detector_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/decision_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/motor_control_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+copying phase4_pkg/display_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg
+running install
+running install_lib
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/camera_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/display_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/__init__.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/tracker_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/motor_control_node_arduinoo.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/decision_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/tracker_node_v2.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/detector_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/decision_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/motor_control_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/display_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/camera_node.py to camera_node.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/display_node.py to display_node.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/tracker_node_v1.py to tracker_node_v1.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/motor_control_node_arduinoo.py to motor_control_node_arduinoo.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/decision_node_v1.py to decision_node_v1.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/tracker_node_v2.py to tracker_node_v2.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/detector_node.py to detector_node.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/decision_node.py to decision_node.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/motor_control_node.py to motor_control_node.cpython-310.pyc
+byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/display_node_v1.py to display_node_v1.cpython-310.pyc
+running install_data
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index
+creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index/packages
+copying resource/phase4_pkg -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/phase4_pkg
+running install_egg_info
+Copying ../../build/phase4_pkg/phase4_pkg.egg-info to /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/install.log'

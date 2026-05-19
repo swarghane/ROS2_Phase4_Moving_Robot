@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (phase4_pkg) JobQueued: {'identifier': 'phase4_pkg', 'dependencies': OrderedDict()}
+[0.001485] (phase4_pkg) JobStarted: {'identifier': 'phase4_pkg'}
+[0.099234] (-) TimerEvent: {}
+[0.199891] (-) TimerEvent: {}
+[0.301012] (-) TimerEvent: {}
+[0.401732] (-) TimerEvent: {}
+[0.502669] (-) TimerEvent: {}
+[0.603660] (-) TimerEvent: {}
+[0.704586] (-) TimerEvent: {}
+[0.805810] (-) TimerEvent: {}
+[0.906506] (-) TimerEvent: {}
+[1.007192] (-) TimerEvent: {}
+[1.108645] (-) TimerEvent: {}
+[1.209292] (-) TimerEvent: {}
+[1.310382] (-) TimerEvent: {}
+[1.411342] (-) TimerEvent: {}
+[1.512027] (-) TimerEvent: {}
+[1.612690] (-) TimerEvent: {}
+[1.670205] (phase4_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/phase4_pkg', 'build', '--build-base', '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build', 'install', '--record', '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/swarghane/ros2_learning_phases/ros2_phase4/src/phase4_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'swarghane', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/lib/aarch64-linux-gnu:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/home/swarghane', 'OLDPWD': '/home/swarghane/ros2_learning_phases', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.5.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'SYSTEMD_EXEC_PID': '3228', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PYTHONNOUSERSITE': '1', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'swarghane', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1794525043409', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'swarghane', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/swarghane/.local/bin:/usr/local/cuda/bin:/home/swarghane/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/my-orin-nano:@/tmp/.ICE-unix/3205,unix/my-orin-nano:/tmp/.ICE-unix/3205', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/53ab8aa1_bfd6_4626_acf7_54f43ed0215e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[1.712887] (-) TimerEvent: {}
+[1.813758] (-) TimerEvent: {}
+[1.914642] (-) TimerEvent: {}
+[2.015281] (-) TimerEvent: {}
+[2.116414] (-) TimerEvent: {}
+[2.217689] (-) TimerEvent: {}
+[2.257077] (phase4_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.258578] (phase4_pkg) StdoutLine: {'line': b'creating ../../build/phase4_pkg/phase4_pkg.egg-info\n'}
+[2.259203] (phase4_pkg) StdoutLine: {'line': b'writing ../../build/phase4_pkg/phase4_pkg.egg-info/PKG-INFO\n'}
+[2.259981] (phase4_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/phase4_pkg/phase4_pkg.egg-info/dependency_links.txt\n'}
+[2.260297] (phase4_pkg) StdoutLine: {'line': b'writing entry points to ../../build/phase4_pkg/phase4_pkg.egg-info/entry_points.txt\n'}
+[2.260562] (phase4_pkg) StdoutLine: {'line': b'writing requirements to ../../build/phase4_pkg/phase4_pkg.egg-info/requires.txt\n'}
+[2.260842] (phase4_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/phase4_pkg/phase4_pkg.egg-info/top_level.txt\n'}
+[2.261235] (phase4_pkg) StdoutLine: {'line': b"writing manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'\n"}
+[2.268830] (phase4_pkg) StdoutLine: {'line': b"reading manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'\n"}
+[2.270506] (phase4_pkg) StdoutLine: {'line': b"writing manifest file '../../build/phase4_pkg/phase4_pkg.egg-info/SOURCES.txt'\n"}
+[2.270929] (phase4_pkg) StdoutLine: {'line': b'running build\n'}
+[2.271151] (phase4_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.271753] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build\n'}
+[2.272109] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib\n'}
+[2.272286] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.272488] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/camera_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.272688] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/display_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.272925] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/__init__.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.273230] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/tracker_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.273493] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/motor_control_node_arduinoo.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.273834] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/decision_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.274180] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/tracker_node_v2.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.274463] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/detector_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.274905] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/decision_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.275322] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/motor_control_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.275644] (phase4_pkg) StdoutLine: {'line': b'copying phase4_pkg/display_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg\n'}
+[2.276419] (phase4_pkg) StdoutLine: {'line': b'running install\n'}
+[2.277230] (phase4_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.279068] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.279346] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/camera_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.279672] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/display_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.279929] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/__init__.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.280201] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/tracker_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.280545] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/motor_control_node_arduinoo.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.280825] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/decision_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.281157] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/tracker_node_v2.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.281587] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/detector_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.281890] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/decision_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.282266] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/motor_control_node.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.282527] (phase4_pkg) StdoutLine: {'line': b'copying /home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/build/lib/phase4_pkg/display_node_v1.py -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg\n'}
+[2.284357] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/camera_node.py to camera_node.cpython-310.pyc\n'}
+[2.286910] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/display_node.py to display_node.cpython-310.pyc\n'}
+[2.288349] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.288752] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/tracker_node_v1.py to tracker_node_v1.cpython-310.pyc\n'}
+[2.291844] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/motor_control_node_arduinoo.py to motor_control_node_arduinoo.cpython-310.pyc\n'}
+[2.293077] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/decision_node_v1.py to decision_node_v1.cpython-310.pyc\n'}
+[2.294496] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/tracker_node_v2.py to tracker_node_v2.cpython-310.pyc\n'}
+[2.297759] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/detector_node.py to detector_node.cpython-310.pyc\n'}
+[2.300081] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/decision_node.py to decision_node.cpython-310.pyc\n'}
+[2.301466] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/motor_control_node.py to motor_control_node.cpython-310.pyc\n'}
+[2.302703] (phase4_pkg) StdoutLine: {'line': b'byte-compiling /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg/display_node_v1.py to display_node_v1.cpython-310.pyc\n'}
+[2.304045] (phase4_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.304352] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index\n'}
+[2.304634] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index\n'}
+[2.304836] (phase4_pkg) StdoutLine: {'line': b'creating /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index/packages\n'}
+[2.304991] (phase4_pkg) StdoutLine: {'line': b'copying resource/phase4_pkg -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/ament_index/resource_index/packages\n'}
+[2.305254] (phase4_pkg) StdoutLine: {'line': b'copying package.xml -> /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/share/phase4_pkg\n'}
+[2.305430] (phase4_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.309628] (phase4_pkg) StdoutLine: {'line': b'Copying ../../build/phase4_pkg/phase4_pkg.egg-info to /home/swarghane/ros2_learning_phases/ros2_phase4/install/phase4_pkg/lib/python3.10/site-packages/phase4_pkg-0.0.0-py3.10.egg-info\n'}
+[2.311857] (phase4_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.317556] (-) TimerEvent: {}
+[2.356426] (phase4_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/swarghane/ros2_learning_phases/ros2_phase4/build/phase4_pkg/install.log'\n"}
+[2.417804] (-) TimerEvent: {}
+[2.438330] (phase4_pkg) CommandEnded: {'returncode': 0}
+[2.495081] (phase4_pkg) JobEnded: {'identifier': 'phase4_pkg', 'rc': 0}
+[2.496545] (-) EventReactorShutdown: {}
