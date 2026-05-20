@@ -40,55 +40,42 @@ class MotorControlNode(Node):
         self.get_logger().info('Motor control node started')
 
     def cmd_callback(self, msg):
+
         linear = msg.linear.x
         angular = msg.angular.z
 
         # ---------------------------------
-        # STOPPING HANDLER (Target Close / No Target)
-        # ---------------------------------
-        # If both inputs are practically zero, stop immediately.
-        if abs(linear) < 0.02 and abs(angular) < 0.02:
-            left_speed = 0
-            right_speed = 0
-
-        # ---------------------------------
         # SEARCH MODE (rotate in place)
         # ---------------------------------
-        elif abs(linear) < 0.02 and abs(angular) >= 0.02:
-            # Scale up the search turn speed so it can clear the deadzone
-            turn_speed = int(angular * 250) 
-            
+        if linear == 0.0 and abs(angular) > 0.05:
+
+            turn_speed = int(angular * 180)
+
             left_speed = -turn_speed
             right_speed = turn_speed
 
         # ---------------------------------
-        # FOLLOW MODE (move + steer dynamically)
+        # FOLLOW MODE (move + steer)
         # ---------------------------------
         else:
-            # Map base_speed directly to the incoming ROS linear velocity
-            # Assuming incoming linear.x maxes out around 0.5 to 1.0 m/s
-            base_speed = int(linear * 200) 
-            
-            # Dynamic steering modifier
-            turn_speed = int(angular * 150)
+
+            base_speed = 140
+
+            turn_speed = int(angular * 220)
 
             left_speed = base_speed - turn_speed
             right_speed = base_speed + turn_speed
-            
-            # Mechanical correction factor (Adjust 0.90 if it still drifts)
-            # Apply to base speed or final speed depending on drift direction
-            right_speed = int(right_speed * 0.90)
+            right_speed = int(right_speed * 0.85)
 
-        # Final Clamp to PWM range
+        # Clamp
         left_speed = max(min(left_speed, 255), -255)
         right_speed = max(min(right_speed, 255), -255)
 
-        # Lowered Deadzone filter (Allows low speed search rotations)
-        # Change 35 based on when your specific motors physically start to nudge
-        if abs(left_speed) < 35:
+        # Deadzone filter
+        if abs(left_speed) < 60:
             left_speed = 0
 
-        if abs(right_speed) < 35:
+        if abs(right_speed) < 60:
             right_speed = 0
 
         command = f'{left_speed},{right_speed}\n'
@@ -96,8 +83,11 @@ class MotorControlNode(Node):
         try:
             if hasattr(self, 'ser') and self.ser:
                 self.ser.write(command.encode())
+
         except Exception as e:
-            self.get_logger().error(f'Serial write failed: {e}')
+            self.get_logger().error(
+                f'Serial write failed: {e}'
+            )
 
 def main(args=None):
     rclpy.init(args=args)
